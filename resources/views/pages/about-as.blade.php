@@ -11,7 +11,7 @@
         <p>Construit avec &hearts; par SIPTIANE KULAPA.</p>
         <a href="/">Revenir a la page d'accueil</a>
         <footer>
-            &copy Copyright {{date('Y')}} &middot <a href="/">accueil</a>
+            &copy Copyright {{date('Y')}} &middot 
         </footer>
     </body>
 </html>
