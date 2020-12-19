@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello-city | A propos</title>
-
-        
-    <body>
+    @extends('base')
+  
+    
+    @section('content')
         <p>Construit avec &hearts; par SIPTIANE KULAPA.</p>
         <a href="/">Revenir a la page d'accueil</a>
-        <footer>
-            &copy Copyright {{date('Y')}} &middot 
-        </footer>
-    </body>
-</html>
+    @endsection
+     
