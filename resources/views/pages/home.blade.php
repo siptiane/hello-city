@@ -1,6 +1,7 @@
     
     @extends('base')
-  
+    
+        @section('title')
     
         @section('content')
             <h1>Bonjour Kinshasa</h1>
