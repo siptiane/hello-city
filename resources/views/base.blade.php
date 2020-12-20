@@ -14,7 +14,10 @@
         @yield('content')
         
         <footer>
-            &copy Copyright {{date('Y')}} &middot <a href="/about-as">A propos</a>
+            &copy Copyright {{date('Y')}}  
+            @if(! Route::is('about'))
+            &middot <a href="{{route('about')}}">A propos</a>
+            @endif
         </footer>
     </body>
 </html>
