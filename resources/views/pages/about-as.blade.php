@@ -1,7 +1,7 @@
 
     @extends('base')
 
-        @section('title','A propos | hello-city')
+        @section('title','A propos | '.config('app.name'))
     
         @section('content')
             <p>Construit avec &hearts; par SIPTIANE KULAPA.</p>

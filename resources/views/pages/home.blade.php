@@ -1,7 +1,7 @@
     
     @extends('base')
     
-        @section('title')
+        @section('title', config('app.name'))
     
         @section('content')
             <h1>Bonjour Kinshasa</h1>

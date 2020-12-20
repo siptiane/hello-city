@@ -4,13 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title','hello-city')</title>
+        <title>@yield('title',config('app.name'))</title>
 
         
     <body>
+
+        {{config('project.variable')}}
         
         @yield('content')
-
+        
         <footer>
             &copy Copyright {{date('Y')}} &middot <a href="/about-as">A propos</a>
         </footer>
