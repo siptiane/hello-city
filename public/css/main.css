@@ -1,0 +1,28 @@
+main{ 
+    margin-top: 5%;
+}
+
+.text-pink{
+    color:rgb(255, 135, 135);
+}
+
+/* .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:auto;
+} */
+
+.round{
+    border-radius:50px;
+}
+
+footer{
+    position:absolute;
+    bottom: 0px;
+    color:#c6d3eb
+}
+
+.link{
+    text-decoration:none;
+}

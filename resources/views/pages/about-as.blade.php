@@ -4,9 +4,10 @@
         @section('title','A propos | '.config('app.name'))
     
         @section('content')
-
-            <img src="/images/siptiane.jpg" alt="">
-            <p>Construit avec &hearts; par SIPTIANE KULAPA.</p>
-            <a href="{{route('home')}}">Revenir a la page d'accueil</a>
+            <img src="{{asset('/images/siptiane.jpg')}}" alt="photo de l'hauteur" class="round img-fluid">
+            <p class="">
+                Construit avec <span class="text-pink">&hearts;</span> par SIPTIANE KULAPA.
+            </p>
+            <a href="{{route('home')}}" class="link">Revenir a la page d'accueil</a>
         @endsection
      
