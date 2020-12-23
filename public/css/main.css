@@ -1,5 +1,5 @@
 main{ 
-    margin-top: 5%;
+    margin: auto;
 }
 
 .text-pink{
@@ -25,4 +25,8 @@ footer{
 
 .link{
     text-decoration:none;
+}
+
+.container{
+    margin-top: 5%;
 }

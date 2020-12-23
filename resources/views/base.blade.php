@@ -9,13 +9,13 @@
         <title>@yield('title',config('app.name'))</title>
     </head>
     <body>
-        <div id="wrapper">
+        <div id="wrapper" class="text-center">
             <div class="container">
-                <main rol="main" class="offset-3 col-md-6 text-center">
+                <main rol="main" class="col-md-6">
                     @yield('content')
                 </main>
                 
-                <footer class="offset-3 col-md-6">
+                <footer class="offset-3 col-md-6 col-sm-6">
                    <span class="">&copy Copyright {{date('Y')}}</span> 
                     @if(! Route::is('about'))
                     &middot <a href="{{route('about')}}" class="link">A propos</a>
