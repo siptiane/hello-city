@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title',config('app.name'))</title>
+        <title>{{ base_title($title ?? null) }}</title>
     </head>
     <body>
         <div id="wrapper" class="text-center">
@@ -14,13 +14,8 @@
                 <main rol="main" class="col-md-6">
                     @yield('content')
                 </main>
-                
-                <footer class="offset-3 col-md-6 col-sm-6">
-                   <span class="">&copy Copyright {{date('Y')}}</span> 
-                    @if(! Route::is('about'))
-                    &middot <a href="{{route('about')}}" class="link">A propos</a>
-                    @endif
-                </footer>
+
+                @include('layouts/partials/_footer')
             </div>
         </div>
     </body>

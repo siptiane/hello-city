@@ -1,7 +1,5 @@
 
-    @extends('base')
-
-        @section('title','A propos | '.config('app.name'))
+    @extends('layouts/base', ['title' => 'about-as'])
     
         @section('content')
             <img src="{{asset('/images/siptiane.jpg')}}" alt="photo de l'hauteur" class="round img-fluid">

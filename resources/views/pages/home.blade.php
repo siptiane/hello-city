@@ -1,7 +1,5 @@
     
-    @extends('base')
-    
-        @section('title', config('app.name'))
+    @extends('layouts/base')
     
         @section('content')
             <img src="{{asset('/images/drapeau.jpg')}}" alt="drapeu de la rdc">
