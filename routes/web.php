@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('pages/home');
 })->name('home');
 
-Route::get('/about-as', function () {
-    return view('pages/about-as');
-})->name('about');
+Route::get('/about-as', fn() => view('pages/about-as'))->name('about');
 
-Route::get('/help', function(){
-    return view('pages/help');
-})->name('help');
+Route::view('/help','pages/help');
